@@ -1,10 +1,11 @@
 <meta charset="UTF-8">
 <script src="jquery.js"></script>
 <script src="moment.js"></script>
+<script src="timezone-years.js"></script>
 <script>
 
 var run = function(){
-	$("#paris-time").text(moment().add(6, 'hours').format('dddd, h:mm:ss a')); 
+	$("#paris-time").text(moment().tz("Europe/Paris").format('dddd, h:mm:ss a')); 
 }
 
 $(function(){

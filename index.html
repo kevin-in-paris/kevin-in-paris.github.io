@@ -1,0 +1,80 @@
+<meta charset="UTF-8">
+<script src="jquery.js"></script>
+<script src="moment.js"></script>
+<script>
+
+var run = function(){
+	$("#paris-time").text(moment().add(6, 'hours').format('dddd, h:mm:ss a')); 
+}
+
+$(function(){
+	run(); 
+	setInterval(function(){
+		run(); 
+	}, 1000); 
+});
+
+
+</script>
+
+
+<html>
+
+<h1>I will post any emergency announcements here if necessary.</h1>
+
+
+<span style="font-size: 2em;">Time in Paris: <strong><span id="paris-time"></span></strong></span></strong>
+
+<h1> I want to... </h1>
+<ul>
+
+	<li><h2> call you now (Emergency, $$$) </h2>
+		<ul>
+			<li> Direct line ($): <strong> 1-412-360-0506 </strong></li>
+			<li> Backup line ($$$): <strong> 011-372-57-584-463 </strong></li>
+		</ul>
+	</li>
+
+
+	<li><h2> call you (toll-free) </h2>
+		<ul>
+			<li> Dial: <strong> 1-866-596-6555 </strong> or <strong> 1-888-935-4312 </strong></li>
+			<li> When prompted, enter: <strong> 372-57-584-463 </strong></li>
+		</ul>
+	</li>
+	
+	<li><h2> send you a text message (free, but tricky)</h2></li>
+		<ul>
+			<li>SMS: <strong> 1-412-360-0506 </strong></li>
+					<li>Free To Send and Receive on Verizon and AT&T </li>
+					<li> <strong> NOTE: </strong>You will receive a reply from <strong> 372-57-584-463</strong>, but you should <strong>  not reply </strong> to this number, or you will be charged $0.50 per message.</li>
+			</ul>
+	</li>
+	
+	
+	<li><h2> connect on WhatsApp (free, intermittent)</h2></li>
+		<ul>
+			<li><strong>372-57-584-463</strong></li></li>
+			<li><a href="https://www.whatsapp.com/">Whats WhatsApp?</a></li>
+		</ul>
+	</li>
+	
+	<li><h2> send you an email (intermittent)</h2></li>
+		<ul>
+			<li><strong><a href="mailto:kevin.smith@tufts.edu">kevin.smith@tufts.edu</a></strong></li></li>
+		</ul>
+	</li>
+	
+	<li><h2> send an email to your phone (direct and free, but brief)</h2></li>
+		<ul>
+			<li> example message - "hey, check your email - bob smith" </li>
+			<li> please include your name and how to reach you or I won't be able to respond! </li>
+			<li><strong><a href="mailto:37257584463@sms.onesimcard.com">37257584463@sms.onesimcard.com</a></strong></li></li>
+		</ul>
+	</li>
+	
+	</ul>
+	
+
+
+</html>
